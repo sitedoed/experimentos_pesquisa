@@ -1,0 +1,8 @@
+Experimento: 2026-04-04 18:21:35.816302
+======================================================================
+Parametros: {'n_steps': 150, 'n_users': 100, 'seed': 42, 'description': 'Comparacao entre modos de recomendacao'}
+
+Resultados Finais:
+Colaborativa - Diversidade: 0.150, Concentracao: 0.900
+Popularidade - Diversidade: 0.350, Concentracao: 0.950
+Exploracao - Diversidade: 0.862, Concentracao: 0.210

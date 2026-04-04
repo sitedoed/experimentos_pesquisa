@@ -1,0 +1,21 @@
+# ============================================================
+# Dependências do Projeto - Framework G(t)
+# Modelagem Explicável de Fenômenos Emergentes
+# ============================================================
+
+# Bibliotecas básicas
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+
+# Para processamento científico (opcional, mas recomendado)
+scipy>=1.7.0
+
+# Para manipulação de YAML (opcional - configurações)
+pyyaml>=5.4.0
+
+# Para notebooks interativos (opcional)
+jupyter>=1.0.0
+
+# Para relatórios em PDF (opcional)
+# pandoc>=2.0 (instalação separada via sistema)
