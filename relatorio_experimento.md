@@ -24,7 +24,7 @@ Validar empiricamente o framework G(t) para modelagem explicável de fenômenos 
 
 1. **Filtragem Colaborativa**: Evidência clara de formação de bolhas de filtro (perda de 85% da diversidade)
 
-2. **Recomendação por Popularidade**: Efeito superestrela confirmado (95.0% de concentração)
+2. **Recomendação por Popularidade**: Concentração de popularidade confirmada (95.0% das interações concentradas nos top-5 itens)
 
 3. **Alta Exploração**: Baseline saudável mantendo diversidade em 86.2%
 

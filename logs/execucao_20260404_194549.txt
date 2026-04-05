@@ -1,4 +1,4 @@
-Experimento: 2026-04-04 18:21:35.816302
+Experimento: 2026-04-04 19:45:49.962365
 ======================================================================
 Parametros: {'n_steps': 150, 'n_users': 100, 'seed': 42, 'description': 'Comparacao entre modos de recomendacao'}
 

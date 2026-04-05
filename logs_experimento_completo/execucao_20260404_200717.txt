@@ -1,0 +1,14 @@
+Experimento iniciado: 2026-04-04 20:07:17.498546
+============================================================
+NUM_JANELAS: 5
+NUM_CICLOS_POR_JANELA: 10
+NUM_RODADAS: 20
+TOP_N_RECOMENDACOES: 3
+PROBABILIDADE_CONSUMO: 0.7
+ALPHA_KG: 0.6
+RANDOM_SEED: 42
+============================================================
+
+Experimento iniciado: 2026-04-04 20:07:19.802387
+
+Regime: colaborativo

@@ -1,7 +1,0 @@
-Experimento iniciado em: 2026-04-04 18:15:48.594238
-======================================================================
-
-Resultados finais:
-Colaborativa - Diversidade: 0.150, Concentração: 0.900
-Popularidade - Diversidade: 0.350, Concentração: 0.950
-Exploração - Diversidade: 0.862, Concentração: 0.210

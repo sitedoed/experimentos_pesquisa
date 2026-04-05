@@ -1,21 +1,113 @@
 # ============================================================
-# Dependências do Projeto - Framework G(t)
-# Modelagem Explicável de Fenômenos Emergentes
+# DEPENDENCIAS DO PROJETO - FRAMEWORK G(t)
+# Modelagem Explicavel de Fenomenos Emergentes em Sistemas de Recomendacao
+# Trabalho de Qualificacao - PPG em Modelagem de Sistemas Complexos (USP)
+# Autor: Edson de Oliveira Vieira
 # ============================================================
 
-# Bibliotecas básicas
+# ============================================================
+# BIBLIOTECAS ESSENCIAIS (OBRIGATORIAS)
+# ============================================================
+
+# Computacao numerica e arrays
+# Usada para: operacoes matematicas, arrays, medias, desvios
 numpy>=1.21.0
+
+# Manipulacao de dados estruturados (DataFrames)
+# Usada para: carregar datasets, salvar resultados em CSV
 pandas>=1.3.0
+
+# Criacao e visualizacao de graficos
+# Usada para: gerar graficos de diversidade, concentracao, modularidade
 matplotlib>=3.4.0
 
-# Para processamento científico (opcional, mas recomendado)
+
+# ============================================================
+# BIBLIOTECAS PARA ANALISE DE GRAFOS (OBRIGATORIAS)
+# ============================================================
+# CRITICAS para o Framework G(t) - Knowledge Graph
+
+# Criacao e analise de grafos/redes
+# Usada para: construir G(t), calcular modularidade, centralidade, comunidades
+networkx>=2.6.0
+
+# Algoritmos de machine learning e similaridade
+# Usada para: calcular similaridade entre itens (recomendacao colaborativa)
+scikit-learn>=1.0.0
+
+
+# ============================================================
+# BIBLIOTECAS PARA PROCESSAMENTO CIENTIFICO (RECOMENDADAS)
+# ============================================================
+
+# Computacao cientifica avancada
+# Usada para: testes estatisticos (Mann-Whitney, t-test), distribuicoes
 scipy>=1.7.0
 
-# Para manipulação de YAML (opcional - configurações)
+# Visualizacao estatistica avancada
+# Usada para: graficos mais elaborados e estilizados
+seaborn>=0.11.0
+
+
+# ============================================================
+# BIBLIOTECAS OPCIONAIS
+# ============================================================
+
+# Manipulacao de arquivos YAML (para arquivos de configuracao)
 pyyaml>=5.4.0
 
-# Para notebooks interativos (opcional)
+# Notebooks interativos Jupyter (para desenvolvimento)
 jupyter>=1.0.0
 
-# Para relatórios em PDF (opcional)
-# pandoc>=2.0 (instalação separada via sistema)
+
+# ============================================================
+# NOTAS DE INSTALACAO
+# ============================================================
+
+# Instalar todas as dependencias:
+#   pip install -r requirements.txt
+
+# Instalar apenas essenciais (experimento rapido):
+#   pip install numpy pandas matplotlib
+
+# Instalar para experimento completo (recomendado):
+#   pip install numpy pandas matplotlib scipy networkx scikit-learn seaborn
+
+# Instalar no Ubuntu/Debian (via apt):
+#   sudo apt install python3-numpy python3-pandas python3-matplotlib
+#   sudo apt install python3-scipy python3-networkx python3-sklearn python3-seaborn
+
+
+# ============================================================
+# VERIFICACAO DA INSTALACAO
+# ============================================================
+
+# Comando para verificar se todas as bibliotecas foram instaladas:
+#
+# python3 -c "
+# import numpy; print('NumPy:', numpy.__version__)
+# import pandas; print('Pandas:', pandas.__version__)
+# import matplotlib; print('Matplotlib:', matplotlib.__version__)
+# import scipy; print('SciPy:', scipy.__version__)
+# import networkx; print('NetworkX:', networkx.__version__)
+# import sklearn; print('Scikit-learn:', sklearn.__version__)
+# import seaborn; print('Seaborn:', seaborn.__version__)
+# "
+
+
+# ============================================================
+# SOLUCAO DE PROBLEMAS COMUNS
+# ============================================================
+
+# Erro: ModuleNotFoundError: No module named 'networkx'
+#   Solucao: pip install networkx
+
+# Erro: ModuleNotFoundError: No module named 'sklearn'
+#   Solucao: pip install scikit-learn
+
+# Erro: externally-managed-environment (Ubuntu 24.04+)
+#   Solucao: pip install --break-system-packages networkx
+#   Ou: pip install --user networkx
+
+# Erro: Permission denied
+#   Solucao: pip install --user networkx

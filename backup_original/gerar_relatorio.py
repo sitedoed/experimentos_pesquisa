@@ -102,7 +102,7 @@ concentracoes = [df_colab['concentration'].iloc[-1], df_pop['concentration'].ilo
 bars2 = ax2.bar(modos, concentracoes, color=cores, alpha=0.7, edgecolor='black')
 ax2.axhline(y=0.6, color='orange', linestyle='--', label='Concentração crítica')
 ax2.set_ylabel('Concentração nos Top-5 Itens', fontsize=12)
-ax2.set_title('(b) Concentração de Popularidade', fontsize=11)
+ax2.set_title('(b) Efeito Superestrela', fontsize=11)
 ax2.set_ylim(0, 1.1)
 ax2.legend()
 for bar, val in zip(bars2, concentracoes):
@@ -143,7 +143,7 @@ Validar empiricamente o framework G(t) para modelagem explicável de fenômenos 
 
 1. **Filtragem Colaborativa**: Evidência clara de formação de bolhas de filtro (perda de { (1-df_colab['diversity'].iloc[-1])*100:.0f}% da diversidade)
 
-2. **Recomendação por Popularidade**: Efeito concentração de popularidade confirmado ({df_pop['concentration'].iloc[-1]:.1%} de concentração)
+2. **Recomendação por Popularidade**: Efeito superestrela confirmado ({df_pop['concentration'].iloc[-1]:.1%} de concentração)
 
 3. **Alta Exploração**: Baseline saudável mantendo diversidade em {df_explore['diversity'].iloc[-1]:.1%}
 
